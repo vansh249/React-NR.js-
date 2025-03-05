@@ -1,9 +1,10 @@
 {
-  "name": "chapter-02",
+  "name": "react",
   "version": "1.0.0",
-  "description": "Ch02",
-  "main": "app.js",
+  "description": "react",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
