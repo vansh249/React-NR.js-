@@ -36,6 +36,7 @@ body {
   width: 180px;
   padding: 5px;
   margin: 5px;
+  border-radius: 10px;
 }
 .res-card:hover{
   cursor: pointer;
@@ -45,4 +46,19 @@ body {
 .res-logo {
   width: 100%;
   height: 180px;
+  border-radius: 10px;
+}
+
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card{
+  background-color: #f0f0f0;
+  width: 180px;
+  margin: 5px;
+  padding: 5px;
+  height: 320px;
+  border-radius: 10px;
 }
