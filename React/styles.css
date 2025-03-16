@@ -5,6 +5,7 @@ body {
   display: flex;
   justify-content: space-between;
   border: 2px solid black;
+  margin-bottom: 10px;
 }
 .logo {
   width: 150px;
@@ -23,22 +24,20 @@ body {
   cursor: pointer;
 }
 
-.search{
-  padding: 10px;
-}
 
-.res-container{
+
+.res-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.res-card{
+.res-card {
   width: 180px;
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
 }
-.res-card:hover{
+.res-card:hover {
   cursor: pointer;
   border: 1px solid black;
 }
@@ -49,16 +48,34 @@ body {
   border-radius: 10px;
 }
 
-.shimmer-container{
+.shimmer-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.shimmer-card{
+.shimmer-card {
   background-color: #f0f0f0;
   width: 180px;
   margin: 5px;
   padding: 5px;
   height: 320px;
   border-radius: 10px;
+}
+
+.login-btn {
+  padding: 0px 20px;
+  background-color: rgb(255, 176, 30);
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: large;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+}
+
+.search{
+  margin-right: 10px;
 }
