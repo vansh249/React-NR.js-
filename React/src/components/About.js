@@ -1,9 +1,25 @@
+import { User, UserClass } from "./User";
+
 const About = () => {
   return (
     <div>
-      <h1>About Us</h1>
-      <h3>This will be the BEST food ordering website very soon!!</h3>
-      <h1 className="underconstruction">Currently we are UNDERCONSTRUCTION</h1>
+      <h1>About Us : </h1>
+
+      <User
+        name={"Vansh Verma"}
+        location={"New Delhi, Delhi"}
+        email={"vanshvansh249@gmail.com"}
+      />
+      <UserClass
+        name={"Cheshire Verma"}
+        location={"New Delhi, Delhi"}
+        email={"cheshire007@gmail.com"}
+      />
+      <User
+        name={"Jazz Verma"}
+        location={"New Delhi, Delhi"}
+        email={"jazz420@gmail.com"}
+      />
     </div>
   );
 };
